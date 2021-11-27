@@ -1,0 +1,57 @@
+.all{
+    width: 900px;
+    height: 580px;
+    margin: auto;
+    font-size: 15px;
+    display: flex;
+}
+.body>div:nth-child(1){
+    margin-top: 40px;
+    margin-left: 10px;
+}
+.body>div:nth-child(2){
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.flex{
+    display: flex;
+}
+input{
+    width: 270px;
+    height: 35px;
+    border: 1px solid;
+    border-radius: 5px;
+    outline: none;
+   
+}
+.flex i{
+font-size: 20px;
+
+}
+
+#useer{
+    background: url(../客户端.img/login_icon01.png) no-repeat -2px 10px;
+}
+ul{
+    justify-content: space-between;
+}
+.table{
+    height: 220px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 166px;
+    margin-left: 120px;
+}
+#sub{
+    background-color: #e52e33;
+    border-radius: 10px;
+    border: none;
+    color: #fff;
+}
+footer>p{
+text-align: center;
+margin: -20px 0;
+font-size: 10px; color: silver;
+}

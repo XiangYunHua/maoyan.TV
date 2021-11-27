@@ -1,0 +1,182 @@
+.bj{
+    width: 1423px;
+}
+
+header{
+    height: 80px;
+    width: 1200px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   margin: auto;
+    border-bottom: 1px solid #999999;
+    position: relative;
+}
+.site{
+    width: 400px;
+    height: 300px;
+    position: absolute;
+    background-color: transparent;
+    top: 0px;
+    left: 140px;
+    display: none;
+}
+.place:hover .site{
+    display: block;
+}
+.site a:hover{
+    padding: 5px;
+    background-color: red;
+}
+.place:hover i{
+    transform: rotate(180deg);
+    transition: 1s;
+}
+.site-a{
+    display: flex;
+}
+.site-1{
+    width: 100px;
+    height: 80px;
+    border-left: 2px solid #b8abab;
+    border-right: 2px solid #b8abab;
+}
+.site-2{
+    width: 300px;
+    height: 80px;
+    background-color: transparent;
+    border-bottom: 2px solid #b8abab;
+}
+.site-b{
+    width: 400px;
+   height: 220px;
+    background-color: white;
+    border-left: 2px solid #b8abab;
+    border-right: 2px solid #b8abab;
+    border-bottom: 2px solid #b8abab;
+}
+.site-b li{
+    padding: 5px;
+}
+
+.site-b>p{
+    padding: 10px;
+    border-bottom: 2px solid rgb(77, 74, 74);
+}
+.site-b>UL{
+    width: 400px;
+    justify-content: space-around;
+    display: flex;
+}
+.head-image>img{
+    width: 140px;
+    height: 45px;
+}
+a{
+    text-decoration: none   ;
+    font-weight: bold;
+}
+.nav{
+    padding: 0 60px;
+}
+.nav>ul{
+    display: flex;
+    height: 21px;
+    width: 360px;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav a{
+    color: black;
+    display: inline-block;
+    text-align: center;
+    line-height: 50px;
+    width: 80px;
+    height: 50px;
+}
+.nav li:hover a{
+   
+    color: white;
+    background-color: red;
+  
+}
+[type="text"]{
+    width: 262px;
+    height: 35px;
+    border-radius: 30px;
+    font-size: 17px;
+    color: #999999;
+    outline: none;
+    border: 2px solid #999999;
+}
+.seek{
+    position: relative;
+}
+.seek i{
+    display: inline-block;
+    background-image: url(../客户端.img/sprite_webpage.png);
+    width: 40px;
+    height: 40px;
+    position: absolute;
+  left: 230px;
+}
+.download{
+    position: relative;
+}
+.code{
+   width: 130px;
+   height: 300px;
+   display: none;
+   position: absolute;
+   top: -25px;
+   left: -5px;
+   border-right: 3px solid #b8abab;
+   border-left: 3px solid #b8abab;
+ 
+   border-bottom: 3px solid #b8abab;
+}
+.code-1{
+    height: 80px;
+    width: 128px;
+   background-color: transparent;
+}
+.code-2{
+    height: 220px;
+    width: 128px;
+   background-color: white;
+}
+.code-2 img{
+   margin-left: 15px;
+    margin-top: 30px;
+}
+.download:hover .code{
+    display: block;
+}
+.download:hover i{
+    transform: rotate(180deg);
+    transition: 1s;
+}
+.user{
+    position: relative;
+}
+.load{
+    width: 100px;
+    height: 150px;
+  display: none;
+    position: absolute;
+    left: -10px;
+    top: -15px;
+    border: 2px solid #b8abab;
+}
+.load p{
+    margin-top: 80px;
+    text-align: center;
+}
+.user:hover .load{
+    display: block;
+}
+.user:hover i{
+    transform: rotate(180deg);
+    transition: 1s;
+}

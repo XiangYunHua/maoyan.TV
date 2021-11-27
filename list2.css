@@ -1,0 +1,348 @@
+.bj {
+    width           : 1426px;
+    background-color: #fff;
+    margin          : auto;
+}
+header {
+    display    : flex;
+    height     : 80px;
+    align-items: center;
+}
+
+.logo {
+    margin-left: 104px;
+}
+
+a {
+    text-decoration: none;
+    color          : black;
+}
+
+.top a:hover {
+    display         : block;
+    color           : white;
+    background-color: rgb(228, 72, 72);
+    padding         : 25px;
+    text-decoration : underline;
+}
+
+.usehead:hover i {
+    color     : red;
+    transform : rotate(180deg);
+    transition: 2s all;
+}
+
+.usehead p {
+    display: none;
+}
+
+.usehead:hover p {
+    width           : 100px;
+    height          : 130px;
+    background-color: white;
+    border          : 2px solid;
+    position        : absolute;
+    top             : 0px;
+    text-align      : center;
+    padding-top     : 50px;
+    z-index         : 2;
+    display         : block;
+}
+
+.top>ul {
+    display        : flex;
+    justify-content: space-between;
+    align-items    : center;
+    width          : 360px;
+    margin-left    : 75px;
+}
+
+.app {
+    margin-left  : 75px;
+    margin-bottom: 5px;
+    position     : relative;
+}
+
+.ko {
+    width           : 100px;
+    height          : 200px;
+    background-color: white;
+    position        : absolute;
+    top             : 0px;
+    z-index         : 2;
+    display         : none;
+}
+
+.app:hover .ko {
+    display: block;
+}
+
+select {
+
+    margin-left: 10px;
+}
+
+.search {
+    margin-left: 15px;
+    position   : relative;
+}
+.top a{
+    font-size: 20px;
+}
+.search>input {
+    width        : 260px;
+    height       : 30px;
+    border-radius: 20px;
+    outline      : none;
+    border       : 1px solid rgb(170, 162, 162);
+}
+
+.il {
+    width           : 35px;
+    height          : 35px;
+    border-radius   : 20px;
+    position        : absolute;
+    background-color: #ef4238;
+    left            : 235px;
+}
+
+.usehead {
+    margin-left: 25px;
+}
+
+.usehead>img {
+    width        : 40px;
+    height       : 40px;
+    border-radius: 15px;
+}
+.bj-color{
+    height: 375px;
+    width: 100%;
+    background-image: radial-gradient(circle, #744500,#413364,#47355e);
+    position: relative;
+    display: flex;
+}
+.bj-left{
+    height: 375px;
+    width: 407px;
+    position: relative;
+}
+.bi-wenzi{
+    width: 240px;
+    height: 200px;
+    background-color: rgba(0, 0, 0, 0.3);
+    position:absolute;
+    left: 140px;
+    z-index: 3;
+    top: 200px;
+    display: none;
+}
+.bj-left img:hover+.bi-wenzi{
+    display: block;
+}
+.bi-wenzi p{
+    color: #fff;
+}
+.bj-left:hover img{
+    transform: scale(1.2);
+}
+.bj-left>img{
+    width: 240px;
+    height: 330px;
+    box-shadow: 1px 1px 4px white;
+    position: absolute;
+    left: 140px;
+    top: 70px;
+}
+/* .bj-center{
+    width: 300px;
+    height: 375px;
+    color: white;
+} */
+.haiwang{
+    margin-top: 70px;
+    line-height: 1.5em;
+    color: snow;
+}
+.anniu{
+    width: 250px;
+    height: 90px;
+    margin-top: 70px;
+
+}
+.anniu>div:nth-of-type(1)>input{
+    height: 36px;
+    width: 121px;
+    background-color: #756189;
+    color: white;
+}
+.anniu>div:nth-of-type(2)>input{
+    height: 36px;
+    width: 246px;
+    color: white;
+    background-color: #df2d2d;
+    margin-top: 10px;
+}
+.rt{
+    color: #fff;
+    width: 150px;
+    height: 150px;
+    margin-left:25px;
+    line-height: 2em;
+    margin-top: 200px;
+}
+.address{
+    width: 1200px;
+    height: 300px;
+    margin: 50px auto;
+    border: 2px solid #faf7f6;
+    font-size: 13px;
+}
+.one{
+    height: 47px;
+    width: 950px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px dashed #bbb7b0;
+}
+.number{
+    height: 100px;
+    margin-top: 15px;
+    border-bottom: 1px dashed #bbb7b0;
+}
+.two{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0;
+}
+.three{
+    
+ 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.four{
+    
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.number2{
+    margin-top: 10px;
+    height: 50px;
+    border-bottom: 1px dotted #bbb7b0;
+
+}
+.five{
+    padding: 5px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: -20px;
+}
+.six{
+    padding: 5px 0;
+    width: 600px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  
+}
+.seven{
+    padding: 5px 0;
+   
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.eight{
+    padding: 5px 0;
+   width: 600px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.number3{
+    margin-top: 10px;
+}
+.address div>ul>li:hover span{
+   
+    
+    border-radius: 10px;
+    padding: 3px;
+    background-color: #ef4238;
+    color: #faf7f6;
+}
+.ticket{
+    height: 35px;
+    margin-top: 30px;
+    margin: auto;
+    width: 1200px;
+}
+.buyticket{
+    width: 1200px;
+    height: 80px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    border-bottom:1px dashed #bbb7b0 ;
+}
+.buyticket>div p{
+    font-size: 12px;
+    color: #bbb7b0;
+    margin-top: 5px;
+}
+.bang>a{
+    display: block;
+    width: 80px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: #ef4238;
+    color: white;
+    line-height:30px ;
+    text-align: center;
+    margin-right: 20px;
+}
+.bang:hover{
+    color: royalblue;
+}
+.ui{
+   margin-left: 700px;
+   color: rgb(199, 196, 193);
+}
+b{
+    color: red;
+}
+.nav{
+margin-left: 550px;
+}
+footer{
+    height: 210px;
+    width: 100%;
+    background-color: #262426;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bottom-1{
+
+
+text-align: center;
+color: #afaaaf;
+}
+.qw{
+    display: flex;
+    width: 280px;
+    justify-content: space-between;
+margin-left: 280px;
+}
+.qw a{
+    color: red;
+    border-right: 1px solid #afaaaf;
+    padding-right: 5px;
+}
